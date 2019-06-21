@@ -15,7 +15,8 @@
   },
   "keywords": [
     "next.js",
-    "typescript"
+    "typescript",
+    "sass"
   ],
   "author": "Riccardo Bellingeri",
   "license": "ISC",
@@ -28,6 +29,7 @@
     "@zeit/next-typescript": "^1.1.1",
     "next": "^8.1.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "styled-jsx": "^3.2.1"
   }
 }
