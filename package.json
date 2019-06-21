@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-ssr-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate with  Next.js, TypeScript ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbelling/nextjs-ssr-boilerplate.git"
+  },
+  "keywords": [
+    "next.js",
+    "typescript",
+    "sass"
+  ],
+  "author": "Riccardo Bellingeri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbelling/nextjs-ssr-boilerplate/issues"
+  },
+  "homepage": "https://github.com/rbelling/nextjs-ssr-boilerplate#readme",
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
