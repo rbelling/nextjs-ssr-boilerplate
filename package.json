@@ -15,8 +15,7 @@
   },
   "keywords": [
     "next.js",
-    "typescript",
-    "sass"
+    "typescript"
   ],
   "author": "Riccardo Bellingeri",
   "license": "ISC",
@@ -25,6 +24,8 @@
   },
   "homepage": "https://github.com/rbelling/nextjs-ssr-boilerplate#readme",
   "dependencies": {
+    "@types/react": "^16.8.22",
+    "@zeit/next-typescript": "^1.1.1",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

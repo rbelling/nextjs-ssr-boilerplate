@@ -1,7 +1,7 @@
 > Next.js boilerplate for universal apps, with TypeScript and SASS support
 
 # Upcoming features
-- [ ] add typescript
+- [x] add typescript
 - [ ] add sass
 - [ ] add linting
 - [ ] add travis
