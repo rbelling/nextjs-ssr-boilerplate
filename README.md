@@ -2,7 +2,7 @@
 
 # Upcoming features
 - [x] add typescript
-- [ ] add sass
+- [ ] add css support, with autoprefixer and css-next
 - [ ] add linting
 - [ ] add travis
 - [ ] save as bp
