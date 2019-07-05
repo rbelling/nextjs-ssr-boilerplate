@@ -9,27 +9,27 @@
     "build": "next build",
     "start": "next start"
   },
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.22",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "next-compose-plugins": "^2.2.0"
+  },
+  "author": "Riccardo Bellingeri",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rbelling/nextjs-ssr-boilerplate.git"
   },
+  "homepage": "https://github.com/rbelling/nextjs-ssr-boilerplate#readme",
   "keywords": [
     "next.js",
     "typescript",
     "sass"
-  ],
-  "author": "Riccardo Bellingeri",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rbelling/nextjs-ssr-boilerplate/issues"
-  },
-  "homepage": "https://github.com/rbelling/nextjs-ssr-boilerplate#readme",
-  "dependencies": {
-    "@types/react": "^16.8.22",
-    "@zeit/next-typescript": "^1.1.1",
-    "next": "^8.1.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "styled-jsx": "^3.2.1"
-  }
+  ]
 }

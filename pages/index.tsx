@@ -1,13 +1,11 @@
-import * as React from 'react';
+import * as React from "react";
+import "../styles/index.css";
 
 const getName = (): string => "42";
 
-const Index = (): any => <div>
-    <style jsx>{`
-      p {
-        color: red;
-      }
-    `}</style>
-    <p>Hello {getName()}!!!</p>
-</div>;
+const Index = (): any => (
+  <div>
+    <h1 className="heading">Hello {getName()}!!!</h1>
+  </div>
+);
 export default Index;

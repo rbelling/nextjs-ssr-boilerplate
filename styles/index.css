@@ -1,0 +1,5 @@
+.heading {
+    color: red;
+    filter: blur(2px);
+    transform: translateX(30px);
+}
