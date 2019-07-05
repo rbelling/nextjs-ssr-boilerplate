@@ -4,7 +4,7 @@ import "../styles/index.css";
 const getName = (): string => "42";
 
 const Index = (): any => (
-  <div>
+  <div className="hero-block">
     <h1 className="heading">Hello {getName()}!!!</h1>
   </div>
 );

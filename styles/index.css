@@ -1,5 +1,8 @@
-.heading {
-    color: red;
+.hero-block {
+  --color: red;
+  & > .heading {
+    color: var(--color);
     filter: blur(2px);
     transform: translateX(30px);
+  }
 }

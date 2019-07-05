@@ -2,7 +2,9 @@
 
 # Upcoming features
 - [x] add typescript
-- [ ] add css support, with autoprefixer and css-next
+- [x] add css support, with autoprefixer and css-next
+- [ ] add css modules support
 - [ ] add linting
+- [ ] add tools listed in https://evilmartians.com/chronicles/autoprefixer-7-browserslist-2-released
 - [ ] add travis
 - [ ] save as bp
