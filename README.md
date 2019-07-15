@@ -5,7 +5,7 @@
 - [x] add css support, with autoprefixer and css-next
 - [x] add css modules
 - [x] add linting
-- [ ] add tools listed in https://evilmartians.com/chronicles/autoprefixer-7-browserslist-2-released
+- [x] add tools listed in https://evilmartians.com/chronicles/autoprefixer-7-browserslist-2-released
 - [ ] add dynamic imports https://nextjs.org/docs#basic-usage-also-does-ssr
 - [ ] add travis
 - [ ] save as bp
