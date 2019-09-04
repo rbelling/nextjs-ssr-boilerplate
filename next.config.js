@@ -1,5 +1,6 @@
 const withPlugins = require("next-compose-plugins");
 const withCSS = require("@zeit/next-css");
+const withSass = require("@zeit/next-sass");
 
 module.exports = withPlugins([
   [
@@ -11,5 +12,6 @@ module.exports = withPlugins([
         localIdentName: "[local]---[hash:base64:4]"
       }
     }
-  ]
+  ],
+  withSass
 ]);

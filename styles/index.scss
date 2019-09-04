@@ -1,12 +1,14 @@
 :root {
-  --color: red;
+  --color: blue;
   --cap-width: 960px;
 }
 .hero-block {
   max-width: var(--cap-width);
 }
 .heading {
+  $blur: 1px;
+
   color: var(--color);
-  filter: blur(2px);
+  filter: blur($blur);
   transform: translateX(30px);
 }
