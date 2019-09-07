@@ -9,5 +9,5 @@
 - [x] add dynamic imports https://nextjs.org/docs#basic-usage-also-does-ssr
 - [ ] save as bp
 - [ ] add travis bundle-checker
-- [ ] add webpack-bundle-analyzer
+- [x] add webpack-bundle-analyzer
 - [ ] add light wallet on CI?

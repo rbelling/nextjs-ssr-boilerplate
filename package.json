@@ -23,7 +23,9 @@
     "test": "yarn lint",
     "build": "next build",
     "start": "next start",
-    "lighthouse:dev": "cd performance/reports && npx lighthouse http://localhost:3000 --budget-path=../budget.json --view"
+    "__Performance profiling scripts": "",
+    "lighthouse:dev": "cd performance/reports && npx lighthouse http://localhost:3000 --budget-path=../budget.json --view",
+    "analyze-bundle": "BUNDLE_ANALYZE=browser yarn build"
   },
   "dependencies": {
     "next": "^9.0.1",
@@ -34,6 +36,7 @@
     "@types/react": "^16.8.22",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
+    "@zeit/next-bundle-analyzer": "^0.1.2",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "autoprefixer": "^9.6.0",
