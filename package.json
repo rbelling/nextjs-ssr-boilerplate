@@ -9,6 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "next build",
     "start": "next start"
+    "lighthouse:dev": "cd performance/reports && npx lighthouse http://localhost:3000 --budget-path=../budget.json --view"
   },
   "dependencies": {
     "next": "^9.0.1",
