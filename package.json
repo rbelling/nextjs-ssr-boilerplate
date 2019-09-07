@@ -19,10 +19,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "lint": "stylelint **/*.scss && eslint . --ext .js,.tsx",
+    "lint": "stylelint styles/**/*.scss && eslint . --ext .js,.tsx",
     "test": "yarn lint",
     "build": "yarn test && next build && next export",
-    "start": "serve ./out",
+    "start": "PORT=3000 serve ./out",
     "__Performance profiling scripts": "",
     "lighthouse:dev": "cd performance/reports && npx lighthouse http://localhost:3000 --budget-path=../budget.json --view",
     "analyze-bundle": "BUNDLE_ANALYZE=browser yarn build"
@@ -61,7 +61,7 @@
     "stylelint-config-prettier": "^5.2.0",
     "stylelint-config-standard": "^18.3.0",
     "stylelint-prettier": "^1.1.1",
-    "typescript": "^3.5.2"
+    "typescript": "3.5.x"
   },
   "browserslist": [
     ">= 0.5%",

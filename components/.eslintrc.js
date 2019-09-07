@@ -1,1 +1,1 @@
-module.exports = require('../pages/.eslintrc.json');
+module.exports = require('../pages/.eslintrc.js');

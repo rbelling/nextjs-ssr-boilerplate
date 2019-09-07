@@ -1,6 +1,7 @@
 module.exports = {
-  "env": {
-    "node": true
+  env: {
+    node: true
   },
-  "extends": ["standard", "plugin:prettier/recommended"]
-}
+  extends: ["standard", "plugin:prettier/recommended"],
+  rules: { "import/order": 2 }
+};
