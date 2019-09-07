@@ -6,7 +6,7 @@
 - [x] add css modules
 - [x] add linting
 - [x] add tools listed in https://evilmartians.com/chronicles/autoprefixer-7-browserslist-2-released
-- [ ] add dynamic imports https://nextjs.org/docs#basic-usage-also-does-ssr
+- [x] add dynamic imports https://nextjs.org/docs#basic-usage-also-does-ssr
 - [ ] save as bp
 - [ ] add travis bundle-checker
 - [ ] add webpack-bundle-analyzer
