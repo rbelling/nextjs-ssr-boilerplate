@@ -1,18 +1,20 @@
 import React from "react";
+import dynamic from "next/dynamic";
+import Link from "next/link";
 // @ts-ignore
 import style from "../styles/index.scss";
-import dynamic from "next/dynamic";
-
-const getName = (): string => "human";
 
 const DynamicComponentWithNoSSR = dynamic(() => import("../components/dynamic"), {
   ssr: false
 });
 
-const Index = () => (
-  <div className={style.heroBlock} onClick={() => window.alert(getName())}>
-    <h1 className={style.heading}>Hello {getName()}, this is rendered server-side.</h1>
+const Index: React.FC = () => (
+  <div className={style.heroBlock}>
+    <h1 className={style.heading}>Hello human, this is SSR.</h1>
     <DynamicComponentWithNoSSR />
+    <Link href="/about">
+      <a>Click to visit another page</a>
+    </Link>
   </div>
 );
 
