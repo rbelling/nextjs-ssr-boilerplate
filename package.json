@@ -21,8 +21,8 @@
     "dev": "next",
     "lint": "stylelint **/*.scss && eslint . --ext .js,.tsx",
     "test": "yarn lint",
-    "build": "next build",
-    "start": "next start",
+    "build": "yarn test && next build && next export",
+    "start": "serve ./out",
     "__Performance profiling scripts": "",
     "lighthouse:dev": "cd performance/reports && npx lighthouse http://localhost:3000 --budget-path=../budget.json --view",
     "analyze-bundle": "BUNDLE_ANALYZE=browser yarn build"
@@ -56,6 +56,7 @@
     "node-sass": "^4.12.0",
     "postcss-preset-env": "^6.6.0",
     "prettier": "^1.18.2",
+    "serve": "^11.1.0",
     "stylelint": "^10.1.0",
     "stylelint-config-prettier": "^5.2.0",
     "stylelint-config-standard": "^18.3.0",
