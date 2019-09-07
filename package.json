@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "lint": "eslint . --ext .js,.tsx && stylelint styles/*.css",
+    "lint": "eslint . --fix --ext .js,.tsx && stylelint --fix **/*.scss",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "next build",
     "start": "next start"
