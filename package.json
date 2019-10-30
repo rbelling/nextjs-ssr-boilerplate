@@ -21,16 +21,20 @@
     "dev": "next",
     "lint": "stylelint styles/**/*.scss && eslint . --ext .js,.tsx",
     "test": "yarn lint",
-    "build": "yarn test && next build && next export",
+    "build": "next build && next export",
     "start": "PORT=3000 serve ./out",
     "__Performance profiling scripts": "",
     "lighthouse:dev": "cd performance/reports && npx lighthouse http://localhost:3000 --budget-path=../budget.json --view",
     "analyze-bundle": "BUNDLE_ANALYZE=browser yarn build"
   },
+  "engines": {
+    "node": ">= 12.0.0"
+  },
   "dependencies": {
     "next": "^9.0.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.2.2"
   },
   "devDependencies": {
     "@types/react": "^16.8.22",
@@ -50,8 +54,10 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-standard": "^4.0.0",
+    "html-loader": "^0.5.5",
     "husky": ">=1",
     "lint-staged": ">=8",
+    "markdown-loader": "^5.1.0",
     "next-compose-plugins": "^2.2.0",
     "node-sass": "^4.12.0",
     "postcss-preset-env": "^6.6.0",
