@@ -2,13 +2,20 @@
   --color: blue;
   --cap-width: 960px;
 }
+
 .hero-block {
   max-width: var(--cap-width);
 }
+
 .heading {
-  $blur: 1px;
+  $blur: 0.5px;
 
   color: var(--color);
   filter: blur($blur);
-  transform: translateX(30px);
+  transform: translateX(5px);
+}
+
+.-border,
+.heading {
+  border: 1px solid rebeccapurple;
 }

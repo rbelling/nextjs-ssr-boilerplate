@@ -13,7 +13,7 @@ const input = require("../markdown/README.md");
 
 const Index: React.FC = () => (
   <div className={style.heroBlock}>
-    <h1 className={style.heading}>Hello human, this is SSR.</h1>
+    <h1 className={style.heading}>This heading is server-side rendered.</h1>
     <DynamicComponentWithNoSSR />
     <ReactMarkdown source={input} escapeHtml={false} />
     <Link href="/about">
