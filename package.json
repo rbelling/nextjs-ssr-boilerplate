@@ -18,7 +18,7 @@
     "node": ">= 10.0.0"
   },
   "dependencies": {
-    "next": "^9.0.1",
+    "next": "^9.3.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-markdown": "^4.2.2"
